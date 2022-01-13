@@ -34,3 +34,4 @@ Presupposes awscli on your machine.
 
 # Notes
 + made with vanilla Python 3.8
+
