@@ -23,8 +23,8 @@ test_bucket = "nameofyourbucket"
 
 ## Add csv to S3 bucket
 Presupposes awscli on your machine.
-+ add nodes ```aws s3 cp data/processed/neptune_digest_nodes.csv s3://z-neptune-tesing01/neptune_digest_nodes.csv```
-+ add edges```aws s3 cp data/processed/neptune_digest_edges.csv s3://z-neptune-tesing01/neptune_digest_edges.csv```
++ add nodes ```aws s3 cp data/processed/neptune_digest_nodes.csv s3://bucket-name/neptune_digest_nodes.csv```
++ add edges```aws s3 cp data/processed/neptune_digest_edges.csv s3://bucket-name/neptune_digest_edges.csv```
 
 ## Work locally
 + Start Gremlin console from etc: ```apache-tinkerpop-gremlin-console-3.5.1/bin/gremlin.sh```
